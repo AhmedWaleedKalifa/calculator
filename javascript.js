@@ -87,6 +87,9 @@ const clear=document.querySelector(".clear");
 clear.addEventListener("click",()=>{
     display.textContent="";
     counter=0;
+    numbers[0]="";
+    numbers[1]="";
+    result=0;
 })
 /*
 
