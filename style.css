@@ -7,7 +7,7 @@ body{
 .calculator{
     margin: 100px auto;
     border-radius:3svw;
-    width: 40svw;
+    width: 60svw;
     max-width: 500px;
     max-height: 750px;
     height: auto;
@@ -20,7 +20,7 @@ body{
 #display{
     font-size:1.3em;
     background-color: rgb(131, 131, 252);
-    height: 6svw;
+    height: 9svw;
     padding: 2svw;
     border-radius:1svw;
 }
@@ -31,10 +31,10 @@ body{
     justify-content: center;
 }
 button{
-    width: 10svw;
+    width: 15svw;
+    height: 15svw;
     background-color: rgb(209, 222, 255);
     flex:1 0 auto;
-    height: 10svw;
     border: 1px solid gray;
     border-radius:1svw;
     max-width: 100px;
