@@ -79,9 +79,18 @@ equal.addEventListener("click",(element)=>{
             display.textContent="= "+result;
         }
     }else{
-        console.log(result);
+        if(op=="/"){
+            if(numbers[1]==0){
+                display.textContent="Error";
+            }else{
+                display.textContent="= "+(operation(result,op,numbers[1])).toFixed(2);
+            }
+        }else{
+            console.log(result);
         display.textContent="= "+(operation(result,op,numbers[1]));
-    }
+ 
+        }
+           }
     counter=0;
     numbers[0]="";
     numbers[1]="";
