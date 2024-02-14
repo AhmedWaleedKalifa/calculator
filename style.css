@@ -32,8 +32,5 @@ button{
     flex:1 0 auto;
     height: 10svw;
     border: 1px solid gray;
-    border-radius:1svw;
-}
-.active{
-    background-color: rgb(241, 244, 253);
+    border-radius:.7svw;
 }
