@@ -47,7 +47,7 @@ buttons.forEach((button) => {
         if (lastElement == "+" | lastElement == "-" | lastElement == "/" | lastElement == "*") {
             display.textContent = "";
             counter++;
-        } else if (display.textContent.at(0) == "=") {
+        } else if (display.textContent.at(0) == "="|display.textContent.at(0)=="E") {
             display.textContent = "";
         }
         display.textContent = display.textContent + element.target.getAttribute("id");
