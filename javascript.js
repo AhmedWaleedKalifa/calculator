@@ -56,7 +56,13 @@ buttons.forEach((button) => {
 })
 operations.forEach((o) => {
     o.addEventListener("click", (element) => {
-        op = display.textContent = element.target.getAttribute("id");
+        if(display.textContent.at(0)=="*"|display.textContent=="+"|display.textContent=="-"|display.textContent=="/"){
+            display.textContent="Error";
+        }else if(numbers[0]==""&&result==""){
+            display.textContent="Error";
+        }else{
+            op = display.textContent = element.target.getAttribute("id");
+        }
     });
 })
 equal.addEventListener("click",(element)=>{
