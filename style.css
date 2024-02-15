@@ -13,7 +13,7 @@ body{
     border-radius:3svw;
     width: 60svw;
     max-width: 410px;
-    max-height: 620px;
+    max-height: 630px;
     height: auto;
     background-color: rgba(154, 177, 214, 0.815);
     display: flex;
@@ -34,7 +34,6 @@ body{
     flex-wrap:wrap;
     align-items: center;
     justify-content: center;
-    margin-bottom: 15px;
 }
 button{
     width: 15svw;

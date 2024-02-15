@@ -79,7 +79,7 @@ equal.addEventListener("click",(element)=>{
             display.textContent="= "+result;
         }
     }else{
-        if(op=="/"){
+        if(op=="/"|op=="*"){
             if(numbers[1]==0){
                 display.textContent="Error";
             }else{
