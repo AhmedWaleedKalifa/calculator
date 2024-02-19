@@ -31,6 +31,7 @@ function operation(num1 = "", operation, num2) {
             break;
     }
     result = sum;
+    
     return sum;
 }
 let numbers = ["", ""];
@@ -79,7 +80,7 @@ equal.addEventListener("click",(element)=>{
             display.textContent="= "+result;
         }
     }else{
-        if(op=="/"|op=="*"){
+        if(op=="/"){
             if(numbers[1]==0){
                 display.textContent="Error";
             }else{
