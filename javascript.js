@@ -57,7 +57,7 @@ buttons.forEach((button) => {
 })
 operations.forEach((o) => {
     o.addEventListener("click", (element) => {
-        if(display.textContent.at(0)=="*"|display.textContent=="+"|display.textContent=="-"|display.textContent=="/"){
+        if(display.textContent.at(0)=="*"|display.textContent=="/"){
             display.textContent="Error";
         }else if(numbers[0]==""&&result==""){
             display.textContent="Error";
